@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>lucky-number</title>
+</head>
+<body>
+    <h1>Is Your Birthday Lucky Number 🥳?</h1>
+    <h2>Let's Find Out 🧐</h1>
+    <div class="container">
+        <label  class="box1" for="date-of-birth">Date Of Birth:</label>
+        <input type="date" id="date-of-birth" required pattern="\d{4}-\d{2}-\d{2"/>
+        <label class="box2" for="lucky-number">Lucky Number</label>
+        <input type="number" id="lucky-number"/>
+        <button id="check-number">Check Number</button>
+        <textarea  id="output-box" disabled></textarea>
+    </div>
+
+
+    <script src="/src/index.js"></script>
+</body>
+</html>
